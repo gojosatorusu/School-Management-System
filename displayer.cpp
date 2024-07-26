@@ -24,8 +24,6 @@ Displayer::Displayer(QWidget *parent, Entity *iteminfo, QListWidgetItem* listIte
     if (teacher) {
         qDebug() << "Displaying Teacher: " << iteminfo->getName();
 
-        ui->Professional_Academic_Performance->setText("Professional Performance");
-
         ui->YearandGroup_Password->setText("Password");
 
         ui->Emailedit->setText(teacher->getEmail());
@@ -48,8 +46,6 @@ Displayer::Displayer(QWidget *parent, Entity *iteminfo, QListWidgetItem* listIte
 
     } else if (student) {
         qDebug() << "Displaying Student: " << iteminfo->getName();
-
-        ui->Professional_Academic_Performance->setText("Academic Performance");
 
         ui->Emailedit->setText(student->getEmail());
 
