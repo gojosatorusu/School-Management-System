@@ -113,6 +113,6 @@ Since the SQLite database file cannot be added to the resource files directly, f
 
 This project was a valuable learning experience that significantly improved my technical abilities and project management skills.
 # Screenshots:
-![Login Screen](assets/Screenshot3)
-![Groups](assets/Screenshot1)
-![Teachers](assets/Screenshot2)
+![Login Screen](assets/Screenshot3.png)
+![Groups](assets/Screenshot1.png)
+![Teachers](assets/Screenshot2.png)
