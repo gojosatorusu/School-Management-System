@@ -74,7 +74,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/resources for SMS/search_resized.jpg);
+    <string notr="true">background-image: url(:/resources/search_resized.jpg);
 background-repeat: no-repeat;
 background-position: center;</string>
    </property>

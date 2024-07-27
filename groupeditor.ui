@@ -266,7 +266,7 @@ color: rgb(0, 0, 0);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/resources for SMS/reverse1_resized.jpeg);
+    <string notr="true">background-image: url(:/resources/reverse1_resized.jpeg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: 1px 3px;
@@ -286,7 +286,7 @@ background-size: 1px 3px;
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/resources for SMS/removeitem_resized.jpeg);
+    <string notr="true">background-image: url(:/resources/removeitem_resized.jpeg);
 background-position: center;
 background-repitition: no-repitition;</string>
    </property>

@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     ,reguser(nullptr)
 {
     ui->setupUi(this);
+    setWindowIcon(QIcon(":/resources/SMS.jpeg"));
     // //here we will create the Structure of the Whole Management System, first we will dynamically create the School object
     sqlbase= new QSqlDatabase(QSqlDatabase::addDatabase("QSQLITE"));
     sqlbase->setDatabaseName(QDir::currentPath()+"/Database/SchoolManagmentDatabase.db");

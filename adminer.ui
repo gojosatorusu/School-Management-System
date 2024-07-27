@@ -30,7 +30,7 @@
      <string notr="true">color: rgb(0, 0, 0);</string>
     </property>
     <property name="currentIndex">
-     <number>4</number>
+     <number>6</number>
     </property>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
@@ -97,7 +97,7 @@
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/resources for SMS/search_resized.jpg);
+       <string notr="true">background-image: url(:/resources/search_resized.jpg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -116,7 +116,7 @@ background-position: center;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(191, 191, 191);
-background-image: url(:/resources for SMS/recycle bin.jpeg);
+background-image: url(:/resources/recycle bin.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -134,7 +134,7 @@ background-position: center;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/resources for SMS/refresh_resized.jpeg);</string>
+       <string notr="true">background-image: url(:/resources/refresh_resized.jpeg);</string>
       </property>
       <property name="text">
        <string/>
@@ -152,7 +152,7 @@ background-position: center;</string>
       <property name="styleSheet">
        <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(180, 180, 180);
-background-image: url(:/resources for SMS/Plus.jpeg);
+background-image: url(:/resources/Plus.jpeg);
 background-repeat: no-repeat;
 background-position: center;
 
@@ -276,7 +276,7 @@ background-position: center;
       <property name="styleSheet">
        <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(180, 180, 180);
-background-image: url(:/resources for SMS/Plus.jpeg);
+background-image: url(:/resources/Plus.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -304,7 +304,7 @@ background-position: center;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/resources for SMS/search_resized.jpg);
+       <string notr="true">background-image: url(:/resources/search_resized.jpg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -322,7 +322,7 @@ background-position: center;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/resources for SMS/refresh_resized.jpeg);</string>
+       <string notr="true">background-image: url(:/resources/refresh_resized.jpeg);</string>
       </property>
       <property name="text">
        <string/>
@@ -339,7 +339,7 @@ background-position: center;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(191, 191, 191);
-background-image: url(:/resources for SMS/recycle bin.jpeg);
+background-image: url(:/resources/recycle bin.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -394,7 +394,7 @@ background-position: center;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/resources for SMS/refresh_resized.jpeg);
+       <string notr="true">background-image: url(:/resources/refresh_resized.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -414,7 +414,7 @@ background-position: center;</string>
       <property name="styleSheet">
        <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(180, 180, 180);
-background-image: url(:/resources for SMS/Plus.jpeg);
+background-image: url(:/resources/Plus.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -471,7 +471,7 @@ background-position: center;</string>
       <property name="styleSheet">
        <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(180, 180, 180);
-background-image: url(:/resources for SMS/Plus.jpeg);
+background-image: url(:/resources/Plus.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -489,7 +489,7 @@ background-position: center;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/resources for SMS/refresh_resized.jpeg);
+       <string notr="true">background-image: url(:/resources/refresh_resized.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -517,7 +517,7 @@ background-position: center;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/resources for SMS/search_resized1.jpeg);
+       <string notr="true">background-image: url(:/resources/search_resized1.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>
@@ -765,7 +765,7 @@ background-position: center;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/resources for SMS/refresh_resized.jpeg);
+       <string notr="true">background-image: url(:/resources/refresh_resized.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
       </property>

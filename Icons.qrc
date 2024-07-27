@@ -13,5 +13,25 @@
         <file>resources for SMS/search_resized.jpg</file>
         <file>resources for SMS/search_resized1.jpeg</file>
         <file>resources for SMS/unassign_resized.jpeg</file>
+        <file>resources for SMS/SMS.jpeg</file>
+        <file>resources/Minus.jpeg</file>
+        <file>resources/Plus.jpeg</file>
+        <file>resources/Plus2.jpeg</file>
+        <file>resources/recycle bin.jpeg</file>
+        <file>resources/refresh_resized.jpeg</file>
+        <file>resources/remove.jpeg</file>
+        <file>resources/remove.psd</file>
+        <file>resources/removeitem_resized.jpeg</file>
+        <file>resources/restore.jpeg</file>
+        <file>resources/restore1.png</file>
+        <file>resources/restore1_resized.png</file>
+        <file>resources/reverse.jpeg</file>
+        <file>resources/reverse1_resized.jpeg</file>
+        <file>resources/reverse_resized.jpeg</file>
+        <file>resources/search.jpeg</file>
+        <file>resources/search_resized.jpg</file>
+        <file>resources/search_resized1.jpeg</file>
+        <file>resources/SMS.jpeg</file>
+        <file>resources/unassign_resized.jpeg</file>
     </qresource>
 </RCC>

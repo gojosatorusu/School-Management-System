@@ -242,7 +242,7 @@ background-repitition: no-repitition;</string>
    <property name="styleSheet">
     <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(180, 180, 180);
-background-image: url(:/resources for SMS/Plus2.jpeg);
+background-image: url(:/resources/Plus2.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
    </property>
@@ -260,7 +260,7 @@ background-position: center;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/resources for SMS/Minus.jpeg);
+    <string notr="true">background-image: url(:/resources/Minus.jpeg);
 background-position: center;
 background-repeat: no-repeat;</string>
    </property>

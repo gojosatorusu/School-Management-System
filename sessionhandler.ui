@@ -126,7 +126,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/resources for SMS/unassign_resized.jpeg);
+    <string notr="true">background-image: url(:/resources/unassign_resized.jpeg);
 background-position: center;
 background-repeat: no-repeat;</string>
    </property>

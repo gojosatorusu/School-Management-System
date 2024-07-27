@@ -62,7 +62,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/resources for SMS/search_resized.jpg);
+    <string notr="true">background-image: url(:/resources/search_resized.jpg);
 background-repeat: no-repeat;
 background-position: center;</string>
    </property>
@@ -80,7 +80,7 @@ background-position: center;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/resources for SMS/refresh_resized.jpeg);
+    <string notr="true">background-image: url(:/resources/refresh_resized.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
    </property>
@@ -98,7 +98,7 @@ background-position: center;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/resources for SMS/restore1_resized.png);
+    <string notr="true">background-image: url(:/resources/restore1_resized.png);
 background-repeat: no-repeat;
 background-position: center;</string>
    </property>
@@ -118,7 +118,7 @@ background-position: center;</string>
    <property name="styleSheet">
     <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(180, 180, 180);
-background-image: url(:/resources for SMS/remove.jpeg);
+background-image: url(:/resources/remove.jpeg);
 background-repeat: no-repeat;
 background-position: center;</string>
    </property>
