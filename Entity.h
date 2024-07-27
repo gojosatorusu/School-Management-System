@@ -31,7 +31,7 @@ class Entity
 public:
     Entity()=default;
     Entity(QSqlDatabase* ,QString = "",QString = "",QString = "",int = 0,int = 0, QString ="",QString="I",bool = false);
-    virtual ~Entity() = default;
+    virtual ~Entity() = 0;
 public:
     QString getName() const;
     QString getPhone_Number()const;
