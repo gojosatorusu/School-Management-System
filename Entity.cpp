@@ -38,6 +38,7 @@ bool Entity::getdeletion_State()
     return deletion_State;
 }
 
+Entity::~Entity(){}
 // Implementation of setters
 void Entity::setName(const QString &name) {
     Name = name;
@@ -72,7 +73,7 @@ void Entity::setdeletion_State(bool state)
     deletion_State = state;
 }
 
-Entity::~Entity(){}
+
 //  ----------------------------- this section is for the implementation of the Teacher class -------------------------------------------//
 
 
@@ -605,7 +606,8 @@ void Group::WriteScheduleItemsToDatabase()
 
 void Group::AddTimeSlotToSchedule(const QString &Time_Slot, QStringList Schedulerow)
 {
-    if (this->GroupScheduleItems.contains(Time_Slot)) {
+    if (this->GroupScheduleItems.contains(Time_Slot))
+    {
         // Append to existing time slot
         this->GroupScheduleItems[Time_Slot]=Schedulerow;
     } else {

@@ -13,7 +13,7 @@ class ScheduleSetter : public QDialog
     Q_OBJECT
 
 public:
-    explicit ScheduleSetter(QStringList &,QWidget *parent = nullptr,QTableWidget* = nullptr, EntityType = EntityType::Teacher);
+    explicit ScheduleSetter(QStringList*,QWidget *parent = nullptr,QTableWidget* = nullptr, EntityType = EntityType::Teacher);
     ~ScheduleSetter();
 
 private slots:
@@ -24,7 +24,7 @@ public : signals:
 private:
     Ui::ScheduleSetter *ui;
     QTableWidget* Table;
-    QStringList Time_Slots;
+    QStringList* Time_Slots;
     EntityType id;
 };
 

@@ -344,6 +344,7 @@ void GroupEditor::on_DeleteGroupButton_clicked()
     if (confirm == QMessageBox::Yes) {
         school->deleteGroupdefinitively(group); // Implement this function to delete the group from the data structure or database
         delete group; // Remove from QListWidget
+        emit this->deletegroup();
     }
         this->deleteLater();
 }

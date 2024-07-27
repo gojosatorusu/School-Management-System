@@ -68,8 +68,8 @@ color: rgb(0, 0, 0);</string>
   <widget class="QPushButton" name="ChangeGroup_PasswordButton">
    <property name="geometry">
     <rect>
-     <x>690</x>
-     <y>500</y>
+     <x>720</x>
+     <y>410</y>
      <width>31</width>
      <height>31</height>
     </rect>
@@ -162,7 +162,7 @@ background-repitition: no-repitition;</string>
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>449</x>

@@ -26,6 +26,7 @@ private slots:
 
 public: signals:
     void GroupHasBeenChanged( int newGroup);
+    void deletegroup();
 
 
 private:

@@ -126,20 +126,21 @@ void RegUser::on_LogOutbutton_clicked()
 
 void RegUser::on_addtimeslotbutton_clicked()
 {
-    ScheduleSetter* Adder = new ScheduleSetter(Time_Slots,this,ui->ScheduleWidget,EntityType::Teacher);
+    ScheduleSetter* Adder = new ScheduleSetter(&Time_Slots,this,ui->ScheduleWidget,EntityType::Teacher);
     Adder->show();
     Teacher* Teacher = teacher;
     connect(Adder,&ScheduleSetter::Added_Time_Slot,this,[this,Teacher](QString slot)
-            {
-                qDebug()<<"the connected signal has done its job "<<slot;
-                qDebug()<<Teacher->getName();
-                qDebug()<<"keys in the Signal the saving function";
-                for ( auto key : group->getGroupScheduleItems().keys())
-                {
-                    qDebug()<<key;
-                }
-                teacher->AddTimeSlotToSchedule(slot,QStringList());
-            });
+    {
+        qDebug()<<"the connected signal has done its job "<<slot;
+        qDebug()<<Teacher->getName();
+        qDebug()<<"keys in the Signal the saving function";
+        for ( auto key : group->getGroupScheduleItems().keys())
+        {
+            qDebug()<<key;
+        }
+        teacher->AddTimeSlotToSchedule(slot,QStringList());
+    });
+
 }
 
 

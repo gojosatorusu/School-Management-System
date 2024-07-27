@@ -24,6 +24,7 @@ Displayer::Displayer(QWidget *parent, Entity *iteminfo, QListWidgetItem* listIte
     if (teacher) {
         qDebug() << "Displaying Teacher: " << iteminfo->getName();
 
+
         ui->YearandGroup_Password->setText("Password");
 
         ui->Emailedit->setText(teacher->getEmail());
@@ -35,6 +36,7 @@ Displayer::Displayer(QWidget *parent, Entity *iteminfo, QListWidgetItem* listIte
         ui->Nameedit->setText(teacher->getName());
 
         ui->YearandGroup_passwordedit->setText(teacher->getpassword());
+        ui->YearandGroup_passwordedit->setEchoMode(QLineEdit::Password);
 
         QPixmap pixmap(teacher->getImagepath());
 
@@ -46,6 +48,7 @@ Displayer::Displayer(QWidget *parent, Entity *iteminfo, QListWidgetItem* listIte
 
     } else if (student) {
         qDebug() << "Displaying Student: " << iteminfo->getName();
+
 
         ui->Emailedit->setText(student->getEmail());
 
@@ -149,6 +152,7 @@ void Displayer::on_ChangeGroup_PasswordButton_clicked()
     if (teacher)
     {
         ui->YearandGroup_passwordedit->setReadOnly(false);
+        ui->YearandGroup_passwordedit->setEchoMode(QLineEdit::Normal);
         QMessageBox::warning(this,"Warning!!","Now you can Change the Password");
     }
     else if (student)
