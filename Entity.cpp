@@ -72,7 +72,7 @@ void Entity::setdeletion_State(bool state)
     deletion_State = state;
 }
 
-
+Entity::~Entity(){}
 //  ----------------------------- this section is for the implementation of the Teacher class -------------------------------------------//
 
 
